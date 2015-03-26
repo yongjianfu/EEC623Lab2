@@ -1,4 +1,4 @@
-/* This is the Triangle class for lab2 */
+/* This is the Triangle class  */
 public class Triangle {
 
 	private int side1, side2, side3; 
