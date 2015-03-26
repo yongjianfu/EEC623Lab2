@@ -1,0 +1,2 @@
+# EEC623Lab2
+Lab 2 for EEC 623 SQA
