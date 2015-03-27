@@ -109,6 +109,21 @@ public class Triangle {
 		//Changes made by Ankur Mantri and Nihar Sheth
 		return side1+side2+side3;
 	}
+	
+	/**
+	 *Description: Method to get the area of triangle using Heron's Formula
+	 * 
+	 *Input Params: lengths of all the three sides of the Triangle
+	 * 
+	 * Changes By: Ravi Theja V and Megha Gowni
+	 */
+	public double getAreaUsingHeronsFormula(double side1,double side2,double side3)
+	{
+		 double s = (0.5)*(side1+side2+side3);
+		 double area = java.lang.Math.sqrt(s*(s-side1)*(s-side2)*(s-side3));
+		 return area;
+
+	}
 
 	/**
 	 * Does the three edges form a valid triangle?
