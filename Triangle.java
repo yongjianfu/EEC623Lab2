@@ -102,6 +102,8 @@ public class Triangle {
 	 */
 
 	public double getPerimeter() {
+		//Changes made by Ankur Mantri and Nihar Sheth
+		return side1+side2+side3;
 	}
 
 	/**
