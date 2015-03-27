@@ -33,6 +33,10 @@ public class Triangle {
 	 * Equilateral: a valid triangle that all three sides are the same;
 	 */
 	public boolean isEquilateral()	{
+	if ((side1 == side2) && (side1 == side3))
+	return true;
+	else
+	return false;
 
 	}
 
