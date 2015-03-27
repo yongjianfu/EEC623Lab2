@@ -53,7 +53,12 @@ public class Triangle {
 	/**
 	 * Scalene: a valid triangle that none of the side is the same as another
 	 */
-	public boolean isScalene(){
+	public boolean isScalene() {
+	if((side1!=side2)&&(side2!=side3)&&(side3!=side1))
+	return true;
+	else
+	return false;
+	
 	}
 
 	/**
