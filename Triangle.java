@@ -28,9 +28,6 @@ public class Triangle {
          return false;
 	}
 
-		
-	}
-
 	/**
 	 * Isosceles: a valid triangle that two sides are the same, but not the third;
 	 */
