@@ -3,7 +3,7 @@ public class Triangle {
 
 	private int side1, side2, side3; 
 
-	/**
+        /**
          * Constructs a triangle from the three given edges.
          * @author James Williamson Jr.
          * 
@@ -11,16 +11,16 @@ public class Triangle {
          * @param b the length of the second triangle side
          * @param c the length of the third triangle side
          */
-	public Triangle(int a, int b, int c) 
-	{ 
-	    /*
+        public Triangle(int a, int b, int c) 
+        { 
+            /*
              * Normally, we might bounds check the side lengths. For this 
              * simple lab, no check is performed.
              */
-	    this.side1 = a;
+            this.side1 = a;
             this.side2 = b;
             this.side3 = c;
-	}
+        }
 
 	/**
 	 * Constructs a triangle with edges all 0.
