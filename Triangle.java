@@ -26,6 +26,9 @@ public class Triangle {
 	 * Constructs a triangle with edges all 0.
 	 */
 	public Triangle() { 
+	    this.side1 = 0;
+            this.side2 = 0;
+            this.side3 = 0;
 	}
 	
 
