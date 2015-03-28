@@ -64,7 +64,15 @@ public class Triangle {
 	/**
 	 * Right: a valid triangle that the sum of square of two sides equals to the square of the third side;
 	 */
-	public boolean isRight(){
+	public boolean isRight(){ 
+	//Changes made by Sravya Rudraraju and Navya Alapati 
+	 if (((side1*side1) == ((side2*side2) + (side3*side3))) ||
+          ((side2*side2) == ((side1*side1) + (side3*side3))) ||
+          ((side3*side3) == ((side1*side1) + (side2*side2))))
+         return true;
+      else
+         return false;
+		
 	}
 
 	/**
