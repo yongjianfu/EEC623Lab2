@@ -48,6 +48,11 @@ public class Triangle {
 	 * Isosceles: a valid triangle that two sides are the same, but not the third;
 	 */
 	public boolean isIsosceles(){
+		//Added by Jay Mehta (2634272) and Parita Parekh (2620134).
+		if (( side1 == side2 && side2 != side3 ) || ( side1 == side3 && side1 != side2 ) || ( side2 == side3 && side3 != side1 ))
+		return true;
+		else
+		return false;
 	}
 
 	/**
