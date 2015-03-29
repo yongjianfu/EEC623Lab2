@@ -150,6 +150,11 @@ public class Triangle {
 	/**
 	 * Does the three edges form a valid triangle?
 	 */
+	 //change by Bhushan and Chakri
 	private boolean isTriangle() {
+		if ((side1+side2>side3)||(side2+side3>side1)||(side3+side1>side2));
+		return true;
+		else
+		return false;
 	}
 }
