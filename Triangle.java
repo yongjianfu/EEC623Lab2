@@ -82,8 +82,12 @@ public class Triangle {
 
 	/**
 	 * set the side1 of the triangle
+	 * 
 	 */
 	public void setSide1(int a){
+	
+	this.side1 = a;
+	// change made by Ravi Kandoi
 	}
 
 	/**
