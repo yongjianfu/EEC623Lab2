@@ -113,9 +113,11 @@ public class Triangle {
 	}
 
 	/**
+	 * Changes by Ridima Pendse(2619322)
 	 * get the side2 of the triangle
 	 */
 	public int getSide2(){
+		return side2;
 	}
 
 	/**
