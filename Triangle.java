@@ -82,7 +82,7 @@ public class Triangle {
 
 	/**
 	 * set the side1 of the triangle
-	 * 
+	 * Ravi Kandoi
 	 */
 	public void setSide1(int a){
 	
