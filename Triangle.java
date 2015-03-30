@@ -105,8 +105,11 @@ public class Triangle {
 
 	/**
 	 * get the side1 of the triangle
+	 * @author khaled souiher 
 	 */
 	public int getSide1(){
+		return side1;
+		
 	}
 
 	/**
