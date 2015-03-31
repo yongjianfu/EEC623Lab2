@@ -169,4 +169,41 @@ public class Triangle {
 		else
 		return false;
 	}
+	public String getType(){
+		/* Method to determine what type of triangle was provided                       */
+		/* Includes check for Valid Triangle                                            */
+		/* Method created by Ryan Carpenter (2604640) and Richard Kolk (2524666)        */
+		
+		String type;
+		if (this.isTriangle){
+			if (this.isEquilateral()){
+				type = "Equilateral";
+			} else if( this.isRight()){
+				type = "Right";
+			} else if( this.isIsosceles){
+				type = "Isosceles";
+			} else {
+				type = "Scalene";
+			}
+			return(type);
+		} else {
+			return("Triangle is not Valid");
+		}
+		
+	}
+	public String toString(){
+		/* Method to provide a string description of the triangle, for readout purposes */
+		/* Checks first to see if the triangle is valid, and if so determines the type  */
+		/* Returns a string readout of all available data for the triangle              */
+		/* Method created by Ryan Carpenter (2604640) and Richard Kolk (2524666)        */
+		String type;
+		
+		if (this.isTriangle){
+			return("Triangle is type: " + this.getType "\nSide One is: " + side1 + "\nSide Two is: " + side2 +
+			"\nSide Three is: " + side3 + "\nThe perimiter of this triangle is: " + this.getPerimiter + "\nTriangle has an Area of: "
+			+ this.getAreaUsingHeronsFormula(side1, side2, side3));
+		} else {
+			return("Triangle is not Valid, please check your data and try again.");
+		}
+	}
 }
