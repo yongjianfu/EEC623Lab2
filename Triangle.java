@@ -122,8 +122,10 @@ public class Triangle {
 
 	/**
 	 * get the side3 of the triangle
+	 * Daniel Lustig
 	 */
 	public int getSide3(){
+		return side3
 	}
 
 	/**
