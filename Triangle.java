@@ -125,7 +125,7 @@ public class Triangle {
 	 * Daniel Lustig
 	 */
 	public int getSide3(){
-		return side3
+		return side3;
 	}
 
 	/**
