@@ -132,6 +132,9 @@ public class Triangle {
 	 * get the area of the triangle, return -1 if not a valid triangle
 	 */
 	public double getArea(){
+		// changes by Richa Desai
+		double area=(side1+side2+side3)/2;
+		return area;
 	}
 
   	/**
