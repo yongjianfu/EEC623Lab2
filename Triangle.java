@@ -92,8 +92,10 @@ public class Triangle {
 
 	/**
 	 * set the side2 of the triangle
+	 * @author RahilAhmed
 	 */
 	public void setSide2(int b){
+		this.side2 = b;
 	}
 
 	/**
